@@ -1,0 +1,22 @@
+#version 330 core
+
+in vec4 pColor;
+//in float pInvertido;
+
+uniform bool invertido;
+
+out vec4 salidaColor;
+
+void main() {
+
+	salidaColor = pColor;
+	//Vamos a invertir los valores del color
+	
+	//if (pInvertido > 0) {
+	if (invertido) {
+		salidaColor.x = 1 - salidaColor.x;
+		salidaColor.y = 1 - salidaColor.y;
+		salidaColor.z = 1 - salidaColor.z;
+	}
+	
+}

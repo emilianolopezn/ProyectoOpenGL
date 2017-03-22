@@ -1,0 +1,5 @@
+﻿  AplicacionOpenGL.cpp
+c:\users\alumno\desktop\aplicacionopengl\aplicacionopengl\aplicacionopengl.cpp(92): warning C4244: 'argument': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\alumno\desktop\aplicacionopengl\aplicacionopengl\aplicacionopengl.cpp(176): warning C4244: 'argument': conversion from 'GLfloat' to 'GLsizei', possible loss of data
+  AplicacionOpenGL.vcxproj -> C:\Users\alumno\Desktop\AplicacionOpenGL\Debug\AplicacionOpenGL.exe
+  AplicacionOpenGL.vcxproj -> C:\Users\alumno\Desktop\AplicacionOpenGL\Debug\AplicacionOpenGL.pdb (Full PDB)

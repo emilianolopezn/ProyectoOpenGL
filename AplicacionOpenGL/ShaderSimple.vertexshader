@@ -1,0 +1,27 @@
+#version 330 core
+//Especificamos la version de shader
+//Tengo una variable en la localización 0
+//in - significa variable de entrada (me la manda c++)
+//Esa variable es un vector de 3 elementos (x, y , z)
+layout(location = 0) in vec4 posicion; 
+in vec4 color;
+//in float invertido;
+uniform bool invertido;
+
+uniform mat4 modelo;
+
+//Variables de salida (se pasan al fragment shader)
+out vec4 pColor;
+//out float pInvertido;
+
+//Funcion main()
+void main() {
+	gl_Position = modelo * posicion;
+
+	pColor = color;
+	//pInvertido = invertido;
+
+}
+
+
+
